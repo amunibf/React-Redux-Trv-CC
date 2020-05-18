@@ -1,0 +1,17 @@
+1. pd Posts.js
+    render() {
+        const postItems = this.props.posts.map(post=>(      
+            <div key={post.id}>
+                <h3>{post.title}</h3>
+                <p>{post.body}</p>
+            </div>
+        ))
+        return (
+            <div>
+                <h1>Posts</h1>
+                {postItems}
+            </div>
+        );
+    }
+
+prhtkn arrow func setelah => adalah () knp? karena ia return render jsx bukan fungsi

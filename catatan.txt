@@ -1,0 +1,4 @@
+1. dlm component this.state berubah jd this.props
+2. connect.. menghubungkan component dan store, connect memungkinkan component untuk memanggil fungsi action
+3. mapStyleToProps harus menghunakan variable yg sama dg rootReducer, dan harus dimadukan ke export.. connect bawah
+4. variable pd combine reducer harus sama dg var 
