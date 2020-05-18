@@ -1,0 +1,9 @@
+git pull origin master --allow-unrelated-histories  
+
+git push -u origin master
+
+git rm --cached debug.log
+
+git remote add origin https://github.com/amunibf/React-Redux-Trv-CC.git
+
+
